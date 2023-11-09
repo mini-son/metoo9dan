@@ -6,5 +6,6 @@
         <li class="mb-3 p-2"><a th:href="@{/studygroup/groupJoinList}" sec:authorize="hasAuthority('STUDENT')">학습 그룹 가입</a></li>
         <li class="mb-3 p-2"><a th:href="@{/studygroup/joinConfirm}" sec:authorize="hasAuthority('STUDENT')">학습 그룹 가입 확인</a></li>
         <li class="mb-3 p-2"><a th:href="@{/homework/submit}" sec:authorize="hasAuthority('STUDENT')">숙제 제출</a></li>
+        <li class="mb-3 p-2"><a th:href="@{/homework/past}" sec:authorize="hasAuthority('STUDENT')">숙제 제출 내역</a></li>
     </ul>
 </div>

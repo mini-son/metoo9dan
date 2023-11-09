@@ -29,8 +29,9 @@ import java.util.List;
 @Service
 @Transactional  //부모entity에 접근할때 필요함
 public class GameFilesService {
-    /*private String fileUrl = "C:/upload/game/";     //mac 파일 지정 C:/baduk*/
-    private String fileUrl = "/Users/ryuahn/Desktop/baduk/game/";
+    //private String fileUrl = "classpath:resources/static/img/game/";
+    private String fileUrl = "C:/upload/game/";     //mac 파일 지정 C:/baduk
+    //private String fileUrl = "/Users/ryuahn/Desktop/baduk/game/";
 
     @Autowired
     private final GameContentsFileRepository gameContentsFileRepository;

@@ -21,9 +21,9 @@
                                 <div class="row g-0">
                                     <div class="col-md-3 text-center">
                                         <span th:text="${payment.status == 'complete' ? '결제성공' : payment.status}"></span>
-                                        <img th:src="@{/image/baduk2.JPG}" class="img-fluid rounded" alt="Game Image" style="max-width: 100%; height: auto; margin-left: 10px !important;"/>
-
+                                        <!--<img th:src="@{/image/baduk2.JPG}" class="img-fluid rounded" alt="Game Image" style="max-width: 100%; height: auto; margin-left: 10px !important;"/>-->
                                         <!--<img th:src="@{|/upload/game/${payment.gameContents.gameContentFilesList[0].copyFileName}|}" class="img-fluid" alt="Game Image" style="max-width: 100%; height: auto;">-->
+                                        <img th:src="@{|/img/game/${payment.gameContents.gameContentFilesList[0].copyFileName}|}" class="img-fluid" alt="Game Image" style="max-width: 100%; height: auto;">
                                     </div>
                                     <div class="col-md-9">
                                         <div class="card-body">

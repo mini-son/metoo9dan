@@ -28,6 +28,7 @@ Table of contents
 font & reset css
 --------------------------------------------- 
 */
+@import url('https://webfontworld.github.io/gmarket/GmarketSans.css');
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
 /* 
 ---------------------------------------------
@@ -98,7 +99,13 @@ a:hover {
 	color: #FC3;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h4 {
+  font-family: 'GmarketSans', sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h2, h3, h5, h6 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -346,7 +353,7 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #f5a425!important;
+  color: #EB4646!important;
 }
 
 .background-header .main-nav .nav li:hover a,

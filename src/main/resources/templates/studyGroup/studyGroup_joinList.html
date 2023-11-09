@@ -1,5 +1,6 @@
 <html layout:decorate="~{layout}" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
 <div layout:fragment="content" class="container my-3">
+    <link href="https://webfontworld.github.io/gmarket/GmarketSans.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/studyGroup/studyGroup_joinList.css" th:href="@{/css/studyGroup/studyGroup_joinList.css}" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <div class="row">
@@ -9,7 +10,11 @@
             <!-- 맡은 기능 구현 하시면 됩니다! -->
             <br/>
             <p/>
-            <h2 style="display: flex; justify-content: center; align-items: center;">학습 그룹 가입</h2>
+            <!--<h2 style="display: flex; justify-content: center; align-items: center;">학습 그룹 가입</h2>-->
+            <h1 class="mt-4">학습 그룹 가입</h1>
+            <ol class="breadcrumb mb-4">
+                <li class="breadcrumb-item active">학습 그룹을 선택해서 학습 그룹에 가입하세요</li>
+            </ol>
             <p/>
             <br/>
             <div>
@@ -35,7 +40,8 @@
                             <div class="card" data-bs-toggle="tooltip" data-bs-placement="bottom" th:title="${groupJoinList.group_introduce != null ? '그룹 소개글 : ' + groupJoinList.group_introduce : ''}">
                                 <span class="offer" th:text="${groupJoinList.school_name}">소속</span>
                                 <div class="item-image">
-                                    <img th:src="@{/image/baduk.png}" /> <!-- 이미지 경로를 Thymeleaf로 처리 -->
+                                    <!--<img th:src="@{/image/baduk.png}" />--> <!-- 이미지 경로를 Thymeleaf로 처리 -->
+                                    <img th:src="@{|/img/game/${groupJoinList.copy_file_name}|}" /> <!-- 이미지 경로를 Thymeleaf로 처리 -->
                                 </div>
                                 <div class="item-content">
                                     <h3><strong th:text="${groupJoinList.group_name + ' - ' + groupJoinList.name}"></strong></h3>
