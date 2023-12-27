@@ -16,13 +16,13 @@
 
 ## 프로젝트 상세
 기간 : 2023.09.19 ~ 2023.10.24  
-인원 : 5명(FE&BE, 담당페이지FE&BE 모두 진행)
-언어 : Java(JDK17), JavaScript, HTML5/CSS3
-서버 : Apache Tomcat 9.0
-프레임워크 : Spring Boot, MyBatis
-DB : MariaDB 10.11.2
+인원 : 5명(FE&BE, 담당페이지FE&BE 모두 진행)  
+언어 : Java(JDK17), JavaScript, HTML5/CSS3  
+서버 : Apache Tomcat 9.0  
+프레임워크 : Spring Boot, MyBatis  
+DB : MariaDB 10.11.2  
 IDE : IntelliJ 2023.2  
-library & API : JPA, Spring Security, Thymeleaf, KaKao Pay API, Mail API
+library & API : JPA, Spring Security, Thymeleaf, KaKao Pay API, Mail API  
 
 <br/>
 
