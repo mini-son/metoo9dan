@@ -33,3 +33,10 @@ library & API : JPA, Spring Security, Thymeleaf, KaKao Pay API, Mail API
 4. 학습 그룹 승인 신청/승인 처리
 5. 403 에러 페이지 처리
 
+<br/>   
+  
+## 소스 코드
+- 학습 그룹 페이지  
+https://github.com/mini-son/metoo9dan/tree/master/src/main/java/com/idukbaduk/metoo9dan/studyGroup  
+https://github.com/mini-son/metoo9dan/tree/master/src/main/resources/mybatis/mapper/studyGroup  
+https://github.com/mini-son/metoo9dan/tree/master/src/main/resources/templates/studyGroup  
